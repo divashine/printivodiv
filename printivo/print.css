@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    border-width: 0px;
+    border-color: rgb(229, 231, 235);
+    border-style: solid;
+    scroll-margin-top: 80px;
+    border: 0 solid;
+}
+#_next{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.c-nav{
+    position: absolute;
+    color: #384a62;
+    top: 72px;
+    z-index: 20;
+}
+.content-container{
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.inner-nav{
+    font-size: 14.5px;
+    padding: 0 20px;
+}
+.c-country-select{
+    padding: 3px 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.c-logo{
+    max-width: 140px;
+    flex-shrink: 0;
+}
+.c-logo img{
+    height: auto;
+    border-style: solid;
+}
+.nav-items{
+    margin-left: 120px;
+}
+.nav-link{
+    display: inline-block;
+    transition: color .2s;
+    margin-right: 1.5rem;
+}
+.main-nav-sub-list{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity .3s;
+    pointer-events: none;
+    height: auto;
+    margin-right: 1.5rem;
+}
+.c-navdropdown{
+    border-radius: 3px;
+    background: #fff;
+}
+.border-cream-md{
+    border-color: rgba(236, 232, 217, 1);
+    border-right-width: 2px;
+  }
+.c-hero-landing{
+    background: #ece8d9;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.c-hero-landing_main{
+    z-index: 1;
+    position: relative;
+}
+.title{
+    color: #384a62;
+    font-family: serif;
+    font-size: 4.2rem;
+}
+.sub{
+    color: #708095;
+}
+.font-sf-bold{
+    letter-spacing: 0.04em;
+}
+.c-search .input-con {
+    max-width: 630px;
+    width: 100%;
+    position: relative;
+  }
+.c-search .input-con input{
+    outline: none;
+    padding: 30px 0;
+    text-indent: 20px;
+    border: 1px solid #e8e8e8;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    font-size: 100%;
+  }
+button.search{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+  }
+.pages{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 432px;
+  }
+img.hand{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-style: solid;
+}
+.gridd{
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.c-preview_box{
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .05);
+    flex-direction: column;
+}
+.c-box_image img{
+    height: 14rem;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s;
+}
+.c-box_image img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+img{
+    display: block;
+    border-style: solid;
+    max-width: 100%;
+
+}
+.low{
+    color: #384a62;
+}
+.at{
+    color: #708095;
+    font-size: .8rem;
+}
+.half{
+    width: 25%;
+}
+.c-testimonials_grid{
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+    grid-gap: 30px;
+}
+.c-text-box{
+    background: #fff;
+    box-shadow: 0 0 0 .975px rgba(0, 0, 0, .05);
+    grid-template-columns: 40px, 1fr;
+    grid-gap: 15px;
+    position: relative;
+    height: 200px;
+}
+.gbZdoc {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2px;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    border: 0.97235px solid rgb(236, 232, 217);
+  }
+.c-services_grid {
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+.services-box{
+    grid-template-columns: 70px 1fr;
+    grid-gap: 10px;
+}
+.c-mentions_grid {
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+    grid-gap: 60px;
+    row-gap: 60px;
+    grid-row-gap: 40px;
+  }
+  .white{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    animation: moveDown .5s ease-in-out;
+    z-index: 20;
+  }
